@@ -1,25 +1,59 @@
-github: [metadata]
-encoding: UTF-8
+title: Development
+description: Making your Swift code more fun 🎉, magical ✨ and crunchier 👌
+email: ericswift@foxmail.com
+author: Erick Yim
+image: /assets/icon/apple-touch-icon-180x180.png
+
+baseurl:     ""
+url:         "http://erickyim.github.io"
+date_format: "%b %-d, %Y"
+
+# Optional features
+animated:           true
+show_related_posts: false
+show_post_footers:  false
+show_social_icons:  false
+
+# Disqus post comments
+# (leave blank to disable Disqus)
+disqus_shortname:
+
+# Social icons
+github_username: erickyim
+bitbucket_username:
+stackoverflow_id: 803787
+twitter_username: aligatr
+google_plus_id:
+linkedin_username:
+angellist_username:
+medium_id:
+bitcoin_url:
+paypal_url:
+flattr_button:
+
+# Post sharing icons
+show_sharing_icons: false
+share_text: 'Share this post:'
+# Change to 'true' to enable individual icons
+share_facebook: false
+share_twitter: false
+share_googleplus: false
+share_linkedin: false
+share_digg: false
+share_tumblr: false
+share_reddit: false
+share_stumbleupon: false
+share_hackernews: false
+
+# Build settings
+markdown:     kramdown
 kramdown:
   input: GFM
-  hard_wrap: false
-future: true
-jailed: false
-theme: jekyll-theme-primer
-gfm_quirks: paragraph_end
-lsi: false
-safe: true
-# source: [your repo's top level directory]
-incremental: false
-highlighter: rouge
-gist:
-  noscript: false
-kramdown:
-  math_engine: mathjax
   syntax_highlighter: rouge
-plugins:
-   - jekyll-mentions
-   - jemoji
-   - jekyll-redirect-from
-   - jekyll-sitemap
-   - jekyll-feed
+highlighter:  rouge
+permalink:    pretty
+plugins:      [jekyll-paginate, jekyll-redirect-from]
+paginate:     10
+sass:
+  compressed: true
+include: [".well-known"]
