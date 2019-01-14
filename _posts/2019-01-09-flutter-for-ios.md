@@ -21,21 +21,6 @@
 | UserDefaults | SharedPreferences | - |
 | JSON + Codable | jsonDecode + json_serializable | [json code generation]({% link _posts/2019-01-10-json-code-generation.md %}) |
 
-
-```swift
-enum Media {
-  case book(title: String, author: String, year: Int)
-  case movie(title: String, director: String, year: Int)
-  case website(urlString: String)
-}
-```
-
-```ruby
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
-```
-
 ## other
 
 [http://doc.flutter-dev.cn/flutter-for-ios/](http://doc.flutter-dev.cn/flutter-for-ios/)
