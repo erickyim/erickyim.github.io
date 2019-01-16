@@ -53,7 +53,7 @@ class User {
 
 The file `user.g.dart` is not created yet.
 
-By running `flutter packages pub run build_runner build in the project root`, you generate JSON serialization code for your models whenever they are needed.
+By running `flutter packages pub run build_runner build` in the project root, you generate JSON serialization code for your models whenever they are needed.
 
 Or running `flutter packages pub run build_runner watch` to start a watcher, the watcher wiill generates code continuously.
 
